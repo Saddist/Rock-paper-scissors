@@ -4,7 +4,6 @@ function getComputerChoice() {
     return choice;
 }
 let computerSelection = getComputerChoice();
-// console.log(computerSelection);
 let playerSelection = prompt("Choose rock papers or scissors","rock");
 function compare(playerSelection, computerSelection){
     if(playerSelection == computerSelection){
